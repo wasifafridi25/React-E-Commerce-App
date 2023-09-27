@@ -5,7 +5,7 @@ import Rating from "../components/Rating";
 import Price from "../components/ui/Price";
 import Book from "../components/ui/Book";
 
-export default function BookInfo({ books }) {
+export default function BookInfo({ books, addToCart }) {
   const { id } = useParams();
   const book = books.find(book => +book.id === +id)
 
@@ -53,7 +53,7 @@ export default function BookInfo({ books }) {
                     autem corporis exercitationem provident in quasi iste!
                   </p>
                 </div>
-                <button className="btn">Add to cart</button>
+                <button className="btn" onClick={() => addToCart(book)}>Add to cart</button>
               </div>
             </div>
           </div>

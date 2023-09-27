@@ -3,11 +3,11 @@ import React from "react";
 import { Link, useParams } from "react-router-dom";
 import Rating from "../components/Rating";
 import Price from "../components/ui/Price";
+import Book from "../components/ui/Book";
 
 export default function BookInfo({ books }) {
   const { id } = useParams();
   const book = books.find(book => +book.id === +id)
-  console.log(book)
 
   return (
     <div className="books__body">
@@ -65,6 +65,13 @@ export default function BookInfo({ books }) {
                     <h2 className="book__selected--title--top">
                         Recommended Books
                     </h2>
+                </div>
+                <div className="books">
+                    {
+                        books.filter(book => book.rating === 5 && +book.id !== +id)
+                        .slice(0,4)
+                        .map(book => <Book book={book} key={book.id}/>)
+                    }
                 </div>
             </div>
         </div>

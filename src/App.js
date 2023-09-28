@@ -12,26 +12,31 @@ function App() {
   const [cart, setCart] = useState([])
 
   function addToCart(book){
+    setCart([...cart, book])
+
+
+
     // setCart( prevCart => [...prevCart, book])
-    const dupItem = cart.find(item => +item.id === +book.id)
-    console.log(dupItem)
-    if (dupItem){
-      setCart(cart.map(item => {
-        if (+item.id === +dupItem.id){
-          return {
-            ...item,
-            quantity: item.quantity + 1
-          }
-        }
-        else {
-          return item
-        }
-      }))
-    }
-    else {
-      setCart([...cart, {...book, quantity: 1}]) // we are adding a new property quantity
-      //setCart([...cart, [book]])
-    }
+
+    // const dupItem = cart.find(item => +item.id === +book.id)
+    // console.log(dupItem)
+    // if (dupItem){
+    //   setCart(cart.map(item => {
+    //     if (+item.id === +dupItem.id){
+    //       return {
+    //         ...item,
+    //         quantity: item.quantity + 1
+    //       }
+    //     }
+    //     else {
+    //       return item
+    //     }
+    //   }))
+    // }
+    // else {
+    //   setCart([...cart, {...book, quantity: 1}]) // we are adding a new property quantity
+    //   //setCart([...cart, [book]])
+    // }
   }
 
   useEffect(() => {

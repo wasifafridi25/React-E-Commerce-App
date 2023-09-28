@@ -60,6 +60,14 @@ function App() {
     setCart(cart.filter(item => item.id !== book.id))
   }
 
+  function numberOfItems(){
+    let counter = 0;
+    cart.forEach(item => {
+      counter += item.quantity
+    });
+    return counter
+  }
+
   useEffect(() => {
     console.log(cart)
   }, [cart])
@@ -67,7 +75,8 @@ function App() {
   return (
     <Router>
       <div className="App">
-      <Nav />
+      <Nav numberOfItems={numberOfItems()}/> 
+      {/* without paranthesis it passes the function now it executes and passes the return  */}
         <Routes>
             <Route path="/" element={<Home />}/>
             <Route path="/books" element={<Books books={books}/>}/>

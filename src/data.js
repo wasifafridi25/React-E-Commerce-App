@@ -8,7 +8,7 @@ export const books = [
     salePrice: 14.95,
     rating: 4.5,
     summary1: "Cracking the Coding Interview contains 150 programming questions and solutions, as well as advice on how to approach coding interviews. The questions are divided into sections by topic, so you can focus on the areas where you need the most practice.",
-    summary2: "The book covers a wide range of topics that can be helpful in your interview preparation, including data structures, algorithms, and programming challenges. In addition, the book includes tips and advice from experienced interviewers on how to approach and answer coding questions."
+    summary2: "The book covers a wide range of topics that can be helpful in your interview preparation, including data structures, algorithms, and programming challenges. In addition, the book includes tips and advice from experienced interviewers on how to approach and answer coding questions.",
   },
   {
     id: 2,
@@ -17,6 +17,8 @@ export const books = [
     originalPrice: 39,
     salePrice: null,
     rating: 5,
+    summary1: "An atomic habit is a regular practice or routine that is not only small and easy to do but is also the source of incredible power; a component of the system of compound growth. Bad habits repeat themselves again and again not because you don’t want to change, but because you have the wrong system for change.",
+    summary2: "Changes that seem small and unimportant at first will compound into remarkable results if you’re willing to stick with them for years. If you want better results, then forget about setting goals. Focus on your system instead.",
   },
   {
     id: 3,
@@ -25,6 +27,8 @@ export const books = [
     originalPrice: 29,
     salePrice: null,
     rating: 5,
+    summary1: "Master Your Mind and Defy the Odds is a book by David Goggins, an American ultramarathon runner, ultra-distance cyclist, triathlete, public speaker, retired US Navy SEAL member, and author.",
+    summary2: "This book is his autobiography, describing the early days of his life filled with abuse and discrimination, up until his numerous achievements in the army and sports. Can’t Hurt Me was published in 2018 and was 7 years in the making.",
   },
   {
     id: 4,
@@ -33,6 +37,8 @@ export const books = [
     originalPrice: 44,
     salePrice: 19,
     rating: 4.5,
+    summary1: "Deep work is the ability to focus without distraction on a cognitively demanding task. Shallow work is non-cognitively demanding, logistical-style work, often performed while distracted. Deep work is like a superpower in our increasingly competitive twenty-first-century economy.",
+    summary2: "In order to produce the absolute best stuff you’re capable of, you need to commit to deep work. The ability to quickly master hard things and the ability to produce at an elite level, in terms of both quality and speed, are two core abilities for thriving in today’s economy.",
   },
   {
     id: 5,
@@ -41,6 +47,8 @@ export const books = [
     originalPrice: 32,
     salePrice: null,
     rating: 5,
+    summary1: "he 10X Rule is based on understanding the level of effort and the level of thinking required to succeed. Operating at activity levels far beyond the normal is 10X action and execution. It will take you far. Set targets that are 10X the goals you would ever dream of. Your thoughts and actions are the reason you are where you are right now.",
+    summary2: "Why keep working once you have achieved a certain financial level of success? Because you can be happy while accomplishing things, not while resting and doing nothing. If you loved your wife and kids yesterday, should you just stop at that? Or should you build upon it? Same way with your work and legacy. Limiting the amount of success you desire is a violation of the 10X Rule."
   },
   {
     id: 6,
@@ -49,6 +57,8 @@ export const books = [
     originalPrice: 70,
     salePrice: 12.5,
     rating: 5,
+    summary1: "In the book Sell or Be Sold, the author breaks down the techniques that help master the art of selling in any avenue. The Book teaches us, 1. The successful essentials of selling in a bad economy. 2. Filling your sales pipeline with new business. 3. Staying positive, despite rejection.",
+    summary2: "The book offers a lot of value in each point that he covers. With the experience of a seasoned sales vet at the helm, Sell or be sold will change the way you perceive sales and life.",
   },
   {
     id: 7,
@@ -57,6 +67,8 @@ export const books = [
     originalPrice: 11,
     salePrice: 10,
     rating: 4,
+    summary1: "Rich Dad Poor Dad is about Robert Kiyosaki and his two dads—his real father (poor dad) and the father of his best friend (rich dad)—and the ways in which both men shaped his thoughts about money and investing. You don’t need to earn a high income to be rich. Rich people make money work for them.",
+    summary2: "The poor and the middle-class work for money. The rich have money work for them. It’s not how much money you make that matters. It’s how much money you keep. Rich people acquire assets. The poor and middle class acquire liabilities that they think are assets. The single most powerful asset we all have is our minds.",
   },
   {
     id: 8,
@@ -65,6 +77,8 @@ export const books = [
     originalPrice: 38,
     salePrice: 17.95,
     rating: 4.5,
+    summary1: "Rich Dad’s Cashflow Quadrant is an inspiring read by Kiyosaki which comes as a sequel after his first groundbreaking book and presents how hard work doesn’t always equal becoming rich, as wealth is likely a result of smart money decisions.",
+    summary2: "People who live off of their hourly labor alone are extremely different from those who invest or have their own business. Truly rich people know that they need to start moving within the B and I quadrants ASAP. Investing is complicated at first, but after analyzing the five types of investors, you’ll know where you stand.",
   },
   {
     id: 9,
@@ -73,6 +87,8 @@ export const books = [
     originalPrice: 35,
     salePrice: 19.95,
     rating: 4.5,
+    summary1: "The 48 Laws of Power is a candid and controversial examination of power and its many dynamics. If you want to understand people and ascend in the world, this book is a good starting place. You’ll learn about the nature of power, how to acquire it, and the dark ways in which people operate in the world. And in doing so, you’ll understand how to leverage power to get what you want, ideally using that knowledge to better the world.",
+    summary2: "Many people spend their lives trying to gain power. Most of us avoid confronting the power-hungry nature of people and end up getting up left behind in our blissful ignorance. The truth is that power is an inevitable part of life, and it’s better to be adept at it than to pretend it does not exist. While there are many techniques for acquiring power, they distill down into a discrete set of laws of power that can be learned.",
   },
   {
     id: 10,
@@ -81,6 +97,8 @@ export const books = [
     originalPrice: 40,
     salePrice: null,
     rating: 5,
+    summary1: "The 5 Second Rule is a simple tool that undercuts most of the psychological weapons your brain employs to keep you from taking action, which will allow you to procrastinate less, live happier and reach your goals.",
+    summary2: "Through little acts of courage, the 5 Second Rule makes you less afraid over time. There are three reasons the “right time” will never come, so you just have to start. The 5 Second Rule helps you override your feelings, it’s a psychological intervention.",
   },
   {
     id: 11,
@@ -89,6 +107,8 @@ export const books = [
     originalPrice: 30,
     salePrice: 20,
     rating: 5,
+    summary1: "Criticism is futile because it puts a person on the defensive and usually makes him strive to justify himself. Criticism is dangerous, because it wounds a person’s precious pride, hurts his sense of importance, and arouses resentment. …. Any fool can criticize, condemn and complain—and most fools do. But it takes character and self-control to be understanding and forgiving.",
+    summary2: "When dealing with people, let us remember we are not dealing with creatures of logic. We are dealing with creatures of emotion, creatures bristling with prejudices and motivated by pride and vanity. The only way on earth to influence other people is to talk about what they want and show them how to get it.",
   },
   {
     id: 12,
@@ -97,5 +117,7 @@ export const books = [
     originalPrice: 30,
     salePrice: 12.95,
     rating: 4.5,
+    summary1: "Everyone holds his fortune in his own hands, like a sculptor the raw material he will fashion into a figure. But it’s the same with that type of artistic activity as with all others: We are merely born with the capability to do it. The skill to mold the material into what we want must be learned and attentively cultivated.",
+    summary2: "That’s what this book is about, sculpting your mind and your life in the pursuit of mastery. Becoming the best in a craft, emulating the best practicioners in all fields throughout history."
   },
 ];

@@ -48,16 +48,10 @@ export default function BookInfo({ books, addToCart, cart }) {
                 <div className="book__summary">
                   <h3 className="book__summary--title">Summary</h3>
                   <p className="book__summary--para">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Corrupti accusantium fugit, ratione sunt adipisci, maiores
-                    possimus laborum dicta sed dolor facilis excepturi, cumque
-                    autem corporis exercitationem provident in quasi iste!
+                    {book.summary1}
                   </p>
                   <p className="book__summary--para">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Corrupti accusantium fugit, ratione sunt adipisci, maiores
-                    possimus laborum dicta sed dolor facilis excepturi, cumque
-                    autem corporis exercitationem provident in quasi iste!
+                    {book.summary2}
                   </p>
                 </div>
                 {bookExistsOnCart() ? (

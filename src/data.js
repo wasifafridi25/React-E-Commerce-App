@@ -7,6 +7,8 @@ export const books = [
     originalPrice: 49.95,
     salePrice: 14.95,
     rating: 4.5,
+    summary1: "Cracking the Coding Interview contains 150 programming questions and solutions, as well as advice on how to approach coding interviews. The questions are divided into sections by topic, so you can focus on the areas where you need the most practice.",
+    summary2: "The book covers a wide range of topics that can be helpful in your interview preparation, including data structures, algorithms, and programming challenges. In addition, the book includes tips and advice from experienced interviewers on how to approach and answer coding questions."
   },
   {
     id: 2,
